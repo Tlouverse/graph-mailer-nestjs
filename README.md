@@ -14,7 +14,7 @@ NestJS module for [@tlouverse/graph-mailer](https://www.npmjs.com/package/@tlouv
 ### Installation
 
 ```bash
-npm install @tlouverse/graph-mailer-nestjs @tlouverse/graph-mailer
+npm install @tlouverse/graph-mailer-nestjs
 ```
 
 ### Setup
@@ -115,7 +115,7 @@ Module NestJS pour [@tlouverse/graph-mailer](https://www.npmjs.com/package/@tlou
 ### Installation
 
 ```bash
-npm install @tlouverse/graph-mailer-nestjs @tlouverse/graph-mailer
+npm install @tlouverse/graph-mailer-nestjs
 ```
 
 ### Configuration
