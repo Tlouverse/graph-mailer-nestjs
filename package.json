@@ -1,6 +1,6 @@
 {
   "name": "@tlouverse/graph-mailer-nestjs",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "NestJS module for @tlouverse/graph-mailer.",
   "license": "MIT",
   "author": "tlouverse",
