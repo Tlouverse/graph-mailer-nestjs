@@ -1,0 +1,1 @@
+export const GRAPH_MAILER_OPTIONS = Symbol('GRAPH_MAILER_OPTIONS');

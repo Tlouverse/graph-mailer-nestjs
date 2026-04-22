@@ -1,0 +1,65 @@
+{
+  "name": "@tlouverse/graph-mailer-nestjs",
+  "version": "0.1.0",
+  "description": "NestJS module for @tlouverse/graph-mailer.",
+  "license": "MIT",
+  "author": "tlouverse",
+  "keywords": [
+    "nestjs",
+    "microsoft-graph",
+    "email",
+    "mailer",
+    "graph-api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tlouverse/graph-mailer-nestjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tlouverse/graph-mailer-nestjs/issues"
+  },
+  "homepage": "https://github.com/Tlouverse/graph-mailer-nestjs#readme",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@tlouverse/graph-mailer": "^0.2.0"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^10.0.0 || ^11.0.0",
+    "@nestjs/core": "^10.0.0 || ^11.0.0"
+  },
+  "devDependencies": {
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/core": "^11.0.0",
+    "@types/node": "^22.0.0",
+    "reflect-metadata": "^0.2.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.8.0"
+  }
+}
