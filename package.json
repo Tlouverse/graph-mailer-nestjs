@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Tlouverse/graph-mailer-nestjs.git"
+    "url": "git+https://github.com/Tlouverse/graph-mailer-nestjs.git"
   },
   "bugs": {
     "url": "https://github.com/Tlouverse/graph-mailer-nestjs/issues"
@@ -48,7 +48,7 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@tlouverse/graph-mailer": "^0.2.0"
+    "@tlouverse/graph-mailer": "^0.3.0"
   },
   "peerDependencies": {
     "@nestjs/common": "^10.0.0 || ^11.0.0",

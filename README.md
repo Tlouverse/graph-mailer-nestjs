@@ -97,6 +97,7 @@ This package re-exports everything from `@tlouverse/graph-mailer` — you only n
 | `GraphMailerConfig` | Config type |
 | `SendMailOptions` | Send options type |
 | `Address` | Address type |
+| `Attachment` | Attachment type |
 | `GraphMailError` | Graph API error |
 | `GraphAuthError` | Token acquisition error |
 
